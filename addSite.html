@@ -1,0 +1,53 @@
+<html>
+    <head>
+            <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 3px solid #f1f1f1;}
+
+            input[type=text], input[type=time] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+
+            button {
+              background-color: #04AA6D;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+            }
+
+            button:hover {
+               opacity: 0.8;
+            }
+
+            .imgcontainer {
+                text-align: center;
+                margin: 24px 0 12px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Add Sites</h2>
+        <div class="imgcontainer">
+            <img src="addSite.jpg" alt="Avatar" class="avatar">
+        </div> 
+        <div class="container">
+            <label  for="site_name"><b>Site</b></label>
+            <input id="site_name" type="text" placeholder="Enter site" name="site_name" required>
+             
+            
+            <label  for="block_time"><b>Time</b></label>
+            <input id="site_time" type="text" placeholder="Enter hour ONLY" name="block_time" required> 
+             
+            <button type="submit" id= "Add">Add</button>
+       </div>
+    </body>
+    <script src="addSite.js"></script>
+</html>
